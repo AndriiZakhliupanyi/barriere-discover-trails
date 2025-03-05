@@ -1,14 +1,14 @@
 import SwiftUI
 
-extension ListView {
+extension MapView {
     
-    final class ListViewModel: ObservableObject {
+    final class MapViewModel: ObservableObject {
         
         @Published var items: [Place] = []
         
-        private let router: ListRouter
+        private let router: MapRouter
         
-        init(router: ListRouter) {
+        init(router: MapRouter) {
             self.router = router
             self.items = LoadFileService().loadItems(file: .items)
         }

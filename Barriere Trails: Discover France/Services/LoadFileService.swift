@@ -1,12 +1,17 @@
 import Foundation
 
+enum Files: String {
+    
+    case items, tips
+}
+
 class LoadFileService {
     
     init() {}
 
-    func loadItems<T: Codable>() -> [T] {
-        guard let url = Bundle.main.url(forResource: "items", withExtension: "json") else {
-            print("Failed to locate itens.json in bundle.")
+    func loadItems<T: Codable>(file: Files) -> [T] {
+        guard let url = Bundle.main.url(forResource: file.rawValue, withExtension: "json") else {
+            print("Failed to locate \(file.rawValue).json in bundle.")
             return []
         }
         
@@ -15,7 +20,7 @@ class LoadFileService {
             let decodedItems = try JSONDecoder().decode([T].self, from: data)
             return decodedItems
         } catch {
-            print("Failed to decode items.json: \(error)")
+            print("Failed to decode \(file.rawValue).json: \(error)")
             return []
         }
     }

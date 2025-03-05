@@ -53,7 +53,7 @@ class HostingController<Content: View>: UIHostingController<Content> {
             ]
             
             navigationBar.tintColor = .accent
-//            navigationBar.titleTextAttributes = [.font: FontModel.text.font]
+            navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
             navigationBar.standardAppearance = appearance
             navigationBar.scrollEdgeAppearance = appearance

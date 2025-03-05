@@ -8,26 +8,41 @@ struct DetailsView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
-                VStack(spacing: -50) {
-                    Map(coordinateRegion: $region, annotationItems: [viewModel.place]) { artwork in
-                        MapMarker(coordinate: viewModel.place.coordinate)
+            VStack(alignment: .leading, spacing: 12) {
+                VStack(alignment: .leading, spacing: -50) {
+                    Map(coordinateRegion: $region, annotationItems: [viewModel.place]) { place in
+                        MapAnnotation(coordinate: place.coordinate) {
+                            Image("location")
+                                .resizable()
+                                .frame(width: 32, height: 32)
+                                .foregroundStyle(.accent)
+                        }
                     }
                     .onAppear {
                         region.center = viewModel.place.coordinate
                         region.span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
                     }
                     .frame(height: 300)
-                    Image(viewModel.place.id)
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .cornerRadius(30)
+                    HStack(alignment: .bottom) {
+                        Image(viewModel.place.id)
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .cornerRadius(30)
+                        Spacer()
+                        Button(
+                            viewModel.isFavorite ? "Remove from Favorites" : "Add to Favorites",
+                            action: viewModel.changeFavorite
+                        )
+                        .primary
+                    }
+                    .padding(.horizontal, 12)
                 }
                 Text(viewModel.place.description)
                     .foregroundStyle(.accent)
                     .fontSystem(.text)
                     .padding(.horizontal, 12)
             }
+            .padding(.bottom, 12)
         }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {

@@ -30,5 +30,6 @@ struct FontModel {
 extension FontModel {
     
     static let title: FontModel = .init(font: UIFont(name: "Arvo-Bold", size: 16)!)
-    static let text: FontModel = .init(font: UIFont(name: "Arvo", size: 14)!)
+    static let text: FontModel = .init(font: UIFont(name: "Arvo", size: 15)!)
+    static let main: FontModel = .init(font: UIFont(name: "Arvo-Bold", size: 15)!)
 }

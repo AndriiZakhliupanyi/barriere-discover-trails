@@ -4,21 +4,25 @@ struct TabItem {
     
     let title: String
     let icon: String
+    let view: AnyView
 }
 
-struct TabBarView<T: View>: View {
+struct TabBarView: View {
     
     let items: [TabItem]
-    let views: [T]
     
     @State private var selectedTab = 0
     
     var body: some View {
         VStack(spacing: 0) {
-            Spacer()
-            
-            views[selectedTab]
-                .transition(.opacity)
+            ZStack {
+                ForEach(0..<items.count, id: \.self) { index in
+                    items[index].view
+                        .applyIf(selectedTab != index) {
+                            $0.hidden()
+                        }
+                }
+            }
             
             Color.black.opacity(0.1)
                 .frame(height: 1)
@@ -29,7 +33,7 @@ struct TabBarView<T: View>: View {
                     
                     Button(
                         action: {
-                            withAnimation {
+                            Task { @MainActor in
                                 selectedTab = index
                             }
                         }
@@ -38,18 +42,18 @@ struct TabBarView<T: View>: View {
                             Image(items[index].icon)
                                 .resizable()
                                 .frame(width: 24, height: 24)
-                                .foregroundColor(selectedTab == index ? .accent : .white)
+                                .foregroundColor(selectedTab == index ? .accent : .disable)
                             
                             Text(items[index].title)
                                 .fontSystem(.text)
-                                .foregroundColor(selectedTab == index ? .accent : .white)
+                                .foregroundColor(selectedTab == index ? .accent : .disable)
                         }
                     }
                     
                     Spacer()
                 }
             }
-            .frame(height: 60)
+            .frame(height: 70)
             .background(Color.background)
         }
     }

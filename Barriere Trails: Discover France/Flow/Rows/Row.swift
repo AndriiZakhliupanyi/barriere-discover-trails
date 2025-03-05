@@ -9,7 +9,7 @@ struct Row: View {
             Image(place.id)
                 .resizable()
                 .frame(width: 100, height: 100)
-                .cornerRadius(10)
+                .cornerRadius(30)
             VStack(alignment: .leading, spacing: 4) {
                 Text(place.name)
                     .multilineTextAlignment(.leading)

@@ -15,6 +15,7 @@ struct ListView: View {
                     }
                 }
             }
+            .padding(.vertical, 12)
         }
         .navigationTitle("Places")
     }
