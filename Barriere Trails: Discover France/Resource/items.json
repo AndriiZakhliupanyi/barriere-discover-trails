@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Lumiere Grand Hotel Paris",
+    "lat": 48.8566,
+    "long": 2.3522,
+    "description": "Lumiere Grand Hotel Paris is a five-star luxury destination located in the heart of Paris, just minutes away from world-renowned landmarks such as the Louvre Museum, the Champs-Élysées, and the Seine River. This prestigious hotel offers an unrivaled combination of elegance and modern comfort, boasting spacious suites with private balconies that overlook the shimmering city lights. Guests can indulge in Michelin-starred dining at the hotel's exquisite French restaurant, where world-class chefs craft culinary masterpieces using the finest seasonal ingredients. The Lumiere Spa offers a sanctuary of relaxation with a range of wellness treatments, including aromatherapy, deep-tissue massages, and a state-of-the-art hydrotherapy pool. The rooftop bar provides an intimate setting with handcrafted cocktails and breathtaking panoramic views of the Paris skyline. Whether visiting for business or leisure, this grand hotel ensures an unforgettable stay with its impeccable service, opulent decor, and prime location in the heart of the City of Light.",
+    "id": "hotel1"
+  },
+  {
+    "name": "Belle View Castle Bordeaux",
+    "lat": 44.8378,
+    "long": -0.5792,
+    "description": "Belle View Castle Bordeaux is a historic and luxurious estate nestled in the heart of Bordeaux's wine country, offering a sophisticated retreat for those seeking tranquility and refinement. This grand château, dating back to the 18th century, features meticulously restored interiors with antique furnishings, grand chandeliers, and breathtaking vineyard views. The estate spans acres of lush greenery and rolling vineyards, where guests can embark on private wine-tasting tours led by renowned sommeliers. The castle’s gourmet restaurant serves an exceptional farm-to-table experience, pairing regional wines with delicately prepared French cuisine. Guests can unwind in the on-site spa, featuring a traditional hammam, infinity pool, and exclusive vinotherapy treatments that utilize the healing properties of grapes. The castle also offers horseback riding through scenic vineyards, private yacht excursions along the Garonne River, and curated art exhibitions showcasing Bordeaux’s rich cultural heritage. Whether enjoying a peaceful retreat or a romantic getaway, Belle View Castle Bordeaux is an idyllic escape blending history, elegance, and world-class hospitality.",
+    "id": "hotel2"
+  },
+  {
+    "name": "Azure Bay Retreat",
+    "lat": 43.3,
+    "long": 2.15,
+    "description": "Azure Bay Retreat is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel3"
+  },
+  {
+    "name": "Golden Horizon Resort",
+    "lat": 43.4,
+    "long": 2.2,
+    "description": "Golden Horizon Resort is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel4"
+  },
+  {
+    "name": "Chateau Lumiere",
+    "lat": 43.5,
+    "long": 2.25,
+    "description": "Chateau Lumiere is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel5"
+  },
+  {
+    "name": "Riviera Pearl Escape",
+    "lat": 43.6,
+    "long": 2.3,
+    "description": "Riviera Pearl Escape is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel6"
+  },
+  {
+    "name": "Grand Belle Maison",
+    "lat": 43.7,
+    "long": 2.35,
+    "description": "Grand Belle Maison is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel7"
+  },
+  {
+    "name": "Alpine Serenity Lodge",
+    "lat": 43.8,
+    "long": 2.4,
+    "description": "Alpine Serenity Lodge is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel8"
+  },
+  {
+    "name": "Versailles Garden Estate",
+    "lat": 43.9,
+    "long": 2.45,
+    "description": "Versailles Garden Estate is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel9"
+  },
+  {
+    "name": "Vineyard Haven Bordeaux",
+    "lat": 44.0,
+    "long": 2.5,
+    "description": "Vineyard Haven Bordeaux is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel10"
+  },
+  {
+    "name": "Seine River Boutique",
+    "lat": 44.1,
+    "long": 2.55,
+    "description": "Seine River Boutique is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel11"
+  },
+  {
+    "name": "Provence Lavender Escape",
+    "lat": 44.2,
+    "long": 2.6,
+    "description": "Provence Lavender Escape is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel12"
+  },
+  {
+    "name": "Mont Blanc Luxury Retreat",
+    "lat": 44.3,
+    "long": 2.65,
+    "description": "Mont Blanc Luxury Retreat is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel13"
+  },
+  {
+    "name": "Côte d'Azur Hideaway",
+    "lat": 44.4,
+    "long": 2.7,
+    "description": "Côte d'Azur Hideaway is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel14"
+  },
+  {
+    "name": "Lakeside Elegance Annecy",
+    "lat": 44.5,
+    "long": 2.75,
+    "description": "Lakeside Elegance Annecy is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel15"
+  },
+  {
+    "name": "Gilded Sands Resort",
+    "lat": 44.6,
+    "long": 2.8,
+    "description": "Gilded Sands Resort is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel16"
+  },
+  {
+    "name": "Bordeaux Prestige Château",
+    "lat": 44.7,
+    "long": 2.85,
+    "description": "Bordeaux Prestige Château is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel17"
+  },
+  {
+    "name": "Saint-Tropez Seafront Manor",
+    "lat": 44.8,
+    "long": 2.9,
+    "description": "Saint-Tropez Seafront Manor is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel18"
+  },
+  {
+    "name": "Le Jardin Royal",
+    "lat": 44.9,
+    "long": 2.95,
+    "description": "Le Jardin Royal is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel19"
+  },
+  {
+    "name": "Sunset Haven Cannes",
+    "lat": 45.0,
+    "long": 3.0,
+    "description": "Sunset Haven Cannes is a hidden gem in the French countryside, offering an exclusive and tranquil retreat for travelers seeking relaxation and sophistication. Surrounded by lush landscapes, this exquisite estate features spacious rooms with elegant furnishings and breathtaking views of rolling vineyards or coastal panoramas. Guests can immerse themselves in a world of luxury, indulging in gourmet dining experiences where master chefs create culinary masterpieces with locally sourced ingredients. A serene wellness spa awaits those looking for relaxation, with thermal baths, rejuvenating massages, and personalized wellness programs. Outdoor enthusiasts can take part in guided nature walks, scenic cycling tours through historical towns, and hot-air balloon rides offering an unforgettable aerial perspective of the stunning region. For wine lovers, the retreat offers private tasting sessions curated by expert sommeliers, allowing guests to sample the finest French wines. With an unmatched blend of luxury, comfort, and world-class service, a stay at {name} guarantees an unforgettable experience in one of the most beautiful corners of France.",
+    "id": "hotel20"
+  }
+]
