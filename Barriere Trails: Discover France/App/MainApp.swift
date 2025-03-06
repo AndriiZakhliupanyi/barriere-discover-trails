@@ -19,6 +19,7 @@ struct MainApp: App {
                 ]
             )
             .background(Color.background)
+            .fullScreenAutoLoader()
         }
     }
     
