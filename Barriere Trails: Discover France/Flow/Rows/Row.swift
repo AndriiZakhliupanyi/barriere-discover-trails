@@ -21,6 +21,7 @@ struct Row: View {
             }
             .foregroundStyle(.accent)
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.horizontal, 12)
     }
 }

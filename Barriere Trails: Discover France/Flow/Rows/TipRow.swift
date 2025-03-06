@@ -18,4 +18,3 @@ struct TipRow: View {
         .padding(.horizontal, 12)
     }
 }
-
