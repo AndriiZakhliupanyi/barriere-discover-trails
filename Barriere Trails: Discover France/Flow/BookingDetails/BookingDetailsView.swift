@@ -7,7 +7,11 @@ struct BookingDetailsView: View {
     
     var body: some View {
         VStack(alignment: .center, spacing: 12) {
-            ItemRow(place: viewModel.model.place)
+            Button {
+                viewModel.openDetails(place: viewModel.model.place)
+            } label: {
+                ItemRow(place: viewModel.model.place)
+            }
             Button("Start navigation", action: viewModel.openMap)
                 .secondary
             Text("Info:")

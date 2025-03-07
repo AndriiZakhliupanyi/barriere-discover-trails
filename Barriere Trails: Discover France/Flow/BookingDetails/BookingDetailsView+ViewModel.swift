@@ -18,6 +18,10 @@ extension BookingDetailsView {
             UIApplication.shared.open(url)
         }
         
+        func openDetails(place: Place) {
+            router.openDetails(place: place)
+        }
+        
         func cancelBooking() {
             var bookings = Storage.shared.bookings
             bookings.removeAll { $0.id == model.id }

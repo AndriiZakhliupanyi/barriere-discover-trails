@@ -13,5 +13,10 @@ extension BookingDetailsView {
         func dismiss() {
             navigationService.pop()
         }
+        
+        func openDetails(place: Place) {
+            let view = DetailsViewAssembly(place: place, navigationService: navigationService).view
+            navigationService.push(view)
+        }
     }
 }
