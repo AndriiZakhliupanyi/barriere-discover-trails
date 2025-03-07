@@ -1,8 +1,8 @@
 import SwiftUI
 
-extension FavoritesView {
+extension BookingDetailsView {
     
-    final class FavoritesRouter {
+    final class BookingDetailsRouter {
         
         private let navigationService: NavigationService
         
@@ -12,11 +12,6 @@ extension FavoritesView {
         
         func dismiss() {
             navigationService.pop()
-        }
-        
-        func openDetails(place: Place) {
-            let view = DetailsViewAssembly(place: place, navigationService: navigationService).view
-            navigationService.push(view)
         }
     }
 }

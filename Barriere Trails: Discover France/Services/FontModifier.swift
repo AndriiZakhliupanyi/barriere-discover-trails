@@ -8,6 +8,7 @@ struct FontModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(SwiftUI.Font(fontModel.font))
+            .lineSpacing(3)
     }
 }
 
@@ -31,5 +32,6 @@ extension FontModel {
     
     static let title: FontModel = .init(font: UIFont(name: "Arvo-Bold", size: 16)!)
     static let text: FontModel = .init(font: UIFont(name: "Arvo", size: 15)!)
+    static let subtext: FontModel = .init(font: UIFont(name: "Arvo", size: 13)!)
     static let main: FontModel = .init(font: UIFont(name: "Arvo-Bold", size: 15)!)
 }

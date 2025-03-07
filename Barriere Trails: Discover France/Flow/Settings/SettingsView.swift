@@ -16,21 +16,21 @@ struct SettingsView: View {
                 .resizable()
                 .frame(height: UIScreen.main.bounds.width / 2)
             Button(viewModel.isPlaying ? "Sound: on" : "Sound: off", action: viewModel.changeSound)
-                .primary
+                .secondary
                 .padding(.horizontal, 12)
             Button("About Us", action: viewModel.openAboutUs)
-                .primary
+                .secondary
                 .padding(.horizontal, 12)
             Button("Write feedback") {
                 showFeedbackAlert = true
             }
-            .primary
+            .secondary
             .padding(.horizontal, 12)
             Button("Clear cache") {
                 viewModel.clearCache()
                 showClearCacheAlert = true
             }
-            .primary
+            .secondary
             .padding(.horizontal, 12)
             Spacer()
         }

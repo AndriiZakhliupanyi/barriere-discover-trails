@@ -1,42 +1,43 @@
 import SwiftUI
 
-struct FavoritesView: View {
+struct BookingsView: View {
     
-    @StateObject var viewModel: FavoritesViewModel
+    @StateObject var viewModel: BookingsViewModel
     
     var body: some View {
         ScrollView {
             VStack {
                 if viewModel.items.isEmpty {
-                    Text("Please add your favorite locations")
+                    Text("Please book place first")
                         .fontSystem(.title)
                         .foregroundStyle(.accent)
+                        .frame(maxWidth: .infinity)
                         .padding(.horizontal, 12)
                         .padding(.top, 32)
                 }
                 ForEach(viewModel.items) { item in
                     Button {
-                        viewModel.openDetails(place: item)
+                        viewModel.openDetails(model: item)
                     } label: {
-                        Row(place: item)
+                        BookRow(model: item)
                     }
                 }
             }
             .padding(.vertical, 12)
         }
-        .navigationTitle("Favorites")
         .onAppear {
-            viewModel.reloadFavoriteIds()
+            viewModel.reload()
         }
+        .navigationTitle("Bookings")
     }
 }
 
-struct FavoritesView_Previews: PreviewProvider {
+struct BookingsView_Previews: PreviewProvider {
     
     static var previews: some View {
-        FavoritesView(
+        BookingsView(
             viewModel: .init(
-                router: FavoritesView.FavoritesRouter(navigationService: NavigationService())
+                router: BookingsView.BookingsRouter(navigationService: NavigationService())
             )
         )
     }

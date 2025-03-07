@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Row: View {
+struct ItemRow: View {
     
     let place: Place
     
