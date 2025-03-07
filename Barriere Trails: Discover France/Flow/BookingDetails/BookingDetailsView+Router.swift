@@ -1,8 +1,8 @@
 import SwiftUI
 
-extension FavoritesView {
+extension BookingDetailsView {
     
-    final class FavoritesRouter {
+    final class BookingDetailsRouter {
         
         private let navigationService: NavigationService
         

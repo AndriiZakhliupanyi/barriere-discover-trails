@@ -12,7 +12,7 @@ extension Storage {
     
     enum Key: String {
         
-        case favoriteIds
+        case favoriteIds, bookings, email
     }
     
     var favoriteIds: [String] {
@@ -21,6 +21,24 @@ extension Storage {
         }
         set {
             set(newValue, for: Key.favoriteIds.rawValue)
+        }
+    }
+    
+    var bookings: [BookingInfo] {
+        get {
+            get(for: Key.bookings.rawValue) ?? []
+        }
+        set {
+            set(newValue, for: Key.bookings.rawValue)
+        }
+    }
+    
+    var email: String {
+        get {
+            get(for: Key.email.rawValue) ?? ""
+        }
+        set {
+            set(newValue, for: Key.email.rawValue)
         }
     }
 }

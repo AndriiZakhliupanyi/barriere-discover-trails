@@ -5,11 +5,12 @@ struct DetailsView: View {
     
     @StateObject var viewModel: DetailsViewModel
     @State var region = MKCoordinateRegion()
+    @State var showReserveSheet: Bool = false
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 12) {
-                VStack(alignment: .leading, spacing: -50) {
+                VStack(alignment: .leading, spacing: -40) {
                     Map(coordinateRegion: $region, annotationItems: [viewModel.place]) { place in
                         MapAnnotation(coordinate: place.coordinate) {
                             Image("location")
@@ -29,14 +30,23 @@ struct DetailsView: View {
                             .frame(width: 100, height: 100)
                             .cornerRadius(30)
                         Spacer()
-                        Button(
-                            viewModel.isFavorite ? "Remove from Favorites" : "Add to Favorites",
-                            action: viewModel.changeFavorite
-                        )
+                        Button("Reserve") {
+                            showReserveSheet = true
+                        }
                         .primary
                     }
                     .padding(.horizontal, 12)
                 }
+                HStack(spacing: 12) {
+                    Button(
+                        viewModel.isFavorite ? "Remove from Favorites" : "Add to Favorites",
+                        action: viewModel.changeFavorite
+                    )
+                    .secondary
+                    Button("Start navigation", action: viewModel.openMap)
+                        .secondary
+                }
+                .padding(.horizontal, 12)
                 Text(viewModel.place.description)
                     .foregroundStyle(.accent)
                     .fontSystem(.text)
@@ -52,6 +62,9 @@ struct DetailsView: View {
                         .frame(width: 20, height: 20)
                 }
             }
+        }
+        .sheet(isPresented: $showReserveSheet) {
+            ReserveView(place: viewModel.place)
         }
         .navigationTitle(viewModel.place.name)
     }

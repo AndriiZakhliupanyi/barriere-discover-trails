@@ -24,6 +24,8 @@ extension SettingsView {
         
         func clearCache() {
             Storage.shared.favoriteIds = []
+            Storage.shared.bookings = []
+            Storage.shared.email = ""
             UtilityService.triggerVibration()
         }
     }

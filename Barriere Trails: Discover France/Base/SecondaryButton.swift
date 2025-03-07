@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct PrimaryButton: ButtonStyle {
+struct SecondaryButton: ButtonStyle {
     
     func color(isPressed: Bool) -> Color {
         isPressed ? Color.accent.opacity(0.3) : Color.accent
@@ -10,18 +10,23 @@ struct PrimaryButton: ButtonStyle {
         configuration.label
             .multilineTextAlignment(.center)
             .fontSystem(.main)
-            .foregroundStyle(Color.background)
+            .foregroundStyle(color(isPressed: configuration.isPressed))
             .frame(maxWidth: .infinity)
             .padding(.horizontal, 16)
             .frame(height: 50)
-            .background(color(isPressed: configuration.isPressed))
+            .background(Color.background)
+            .overlay(
+                RoundedRectangle(cornerRadius: 20)
+                    .inset(by: 1)
+                    .stroke(color(isPressed: configuration.isPressed), lineWidth: 2)
+            )
             .cornerRadius(20)
     }
 }
 
 extension Button {
     
-    var primary: some View {
-        buttonStyle(PrimaryButton())
+    var secondary: some View {
+        buttonStyle(SecondaryButton())
     }
 }
