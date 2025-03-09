@@ -1,4 +1,6 @@
 import SwiftUI
+import AppTrackingTransparency
+import AdSupport
 
 @main
 struct MainApp: App {
@@ -20,6 +22,9 @@ struct MainApp: App {
             )
             .background(Color.background)
             .fullScreenAutoLoader()
+            .onAppear {
+                callAtt()
+            }
         }
     }
     
@@ -67,5 +72,24 @@ struct MainApp: App {
             coordinator: NavigationUICoordinator(navigationService: navigationService)
         )
         .ignoresSafeArea()
+    }
+    
+    func callAtt() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            ATTrackingManager.requestTrackingAuthorization { status in
+                switch status {
+                case .authorized:
+                    NotificationCenter.default.post(name: .didReceiveTrackFurs, object: nil)
+                case .denied:
+                    NotificationCenter.default.post(name: .didReceiveTrackFurs, object: nil)
+                case .restricted:
+                    break
+                case .notDetermined:
+                    callAtt()
+                @unknown default:
+                    break
+                }
+            }
+        }
     }
 }

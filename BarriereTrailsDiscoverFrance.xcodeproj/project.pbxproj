@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FFDFCF62D7E367D006E7787 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 1FFDFCF52D7E367D006E7787 /* AppsFlyerLib-Static */; };
+		1FFDFCF92D7E3998006E7787 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 1FFDFCF82D7E3998006E7787 /* OneSignalFramework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FFDF89E2D78378B006E7787 /* BarriereTrailsDiscoverFrance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarriereTrailsDiscoverFrance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFDFCF92D7E3998006E7787 /* OneSignalFramework in Frameworks */,
+				1FFDFCF62D7E367D006E7787 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			);
 			name = BarriereTrailsDiscoverFrance;
 			packageProductDependencies = (
+				1FFDFCF52D7E367D006E7787 /* AppsFlyerLib-Static */,
+				1FFDFCF82D7E3998006E7787 /* OneSignalFramework */,
 			);
 			productName = "Barriere Trails: Discover France";
 			productReference = 1FFDF89E2D78378B006E7787 /* BarriereTrailsDiscoverFrance.app */;
@@ -107,6 +116,10 @@
 			);
 			mainGroup = 1FFDF8952D78378B006E7787;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1FFDFCF42D7E367D006E7787 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				1FFDFCF72D7E3998006E7787 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1FFDF89F2D78378B006E7787 /* Products */;
 			projectDirPath = "";
@@ -272,6 +285,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Barriere Trails: Discover France/BarriereTrailsDiscoverFrance-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Barriere: Discover Trails";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use a tracking identifier to improve app performance and personalize your experience, without linking data to your identity.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +326,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Barriere Trails: Discover France/BarriereTrailsDiscoverFrance-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Barriere: Discover Trails";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use a tracking identifier to improve app performance and personalize your experience, without linking data to your identity.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +374,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FFDFCF42D7E367D006E7787 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.16.1;
+			};
+		};
+		1FFDFCF72D7E3998006E7787 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FFDFCF52D7E367D006E7787 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FFDFCF42D7E367D006E7787 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		1FFDFCF82D7E3998006E7787 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FFDFCF72D7E3998006E7787 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FFDF8962D78378B006E7787 /* Project object */;
 }
